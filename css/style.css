@@ -1,4 +1,61 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #dadada;
   font-size: 10px;
+  font-family: sans-serif;
+}
+
+div {
+  margin: 20px;
+
+}
+
+/***this determines the font styling of all of our h1****/
+h1 {
+  font-size: 2em;
+  font-family: sans-serif;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/*** this is the container for all of the stylings below - gray***/
+.container {
+  padding-bottom: 10px;
+  width: 20% auto;
+  margin: 3% 5%;
+  background-color: #dadada;
+  }
+
+/*** this is the the Modern Luxury Travel header***/
+.emphasis {
+  font-style: sans-serif;
+  padding: 30px;
+  }
+
+.emphasis h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:bold;
+  }
+
+.preview_baku {
+  background-image: url("images/baku.jpg") no-repeat top;
+  background-size: contain;
+  }
+
+.preview_london {
+  background-image: url("images/london.png") no-repeat top;
+  background-size: contain;
+}
+
+.preview_madrid {
+  background-image: url("images/madrid.jpg") no-repeat top;
+  background-size: contain;
+}
+
+.preview_rome {
+  background-image: url("images/rome.jpg") no-repeat top;
+  background-size: contain;
 }
