@@ -9,53 +9,60 @@ body {
 
 div {
   margin: 20px;
-
+  height: 400px;
 }
 
 /***this determines the font styling of all of our h1****/
 h1 {
-  font-size: 2em;
-  font-family: sans-serif;
+  font-size: 2.3em;
+  font-family: serif;
   text-align: left;
-  padding-left: 20px;
+  padding-left: 40px;
+  padding-top: 30px;
+  font-weight: 600;
 }
 
 /*** this is the container for all of the stylings below - gray***/
 .container {
-  padding-bottom: 10px;
-  width: 20% auto;
-  margin: 3% 5%;
   background-color: #dadada;
+  width: 60%;
+  margin: 10%;
   }
 
 /*** this is the the Modern Luxury Travel header***/
 .emphasis {
   font-style: sans-serif;
-  padding: 30px;
   }
 
 .emphasis h1 {
+  font-size: 1.8em;
+  font-family: sans-serif;
   text-align: center;
   text-transform: uppercase;
-  font-weight:bold;
+  padding-top: 20px;
+  font-weight: 500;
   }
 
 .preview_baku {
-  background-image: url("images/baku.jpg") no-repeat top;
+  background-image: url("../images/baku.jpg");
   background-size: contain;
-  }
+  background-repeat: no-repeat;
+}
 
 .preview_london {
-  background-image: url("images/london.png") no-repeat top;
+  background-image: url("../images/london.png");
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .preview_madrid {
-  background-image: url("images/madrid.jpg") no-repeat top;
+  background-image: url("../images/madrid.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .preview_rome {
-  background-image: url("images/rome.jpg") no-repeat top;
+  background-image: url("../images/rome.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
 }
