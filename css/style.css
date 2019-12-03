@@ -5,25 +5,39 @@
 body {
   font-size: 10px;
   font-family: sans-serif;
-  margin: 10px auto;
-  margin-left: 15%;
-  border: solid red;
+  margin: 1% auto;
+  background-color: #dadada;
 }
 
 div {
-  height: 400px;
+  height: 375px;
   float: left;
   width: 100%;
+  margin: 1%;
   background-color: #dadada;
   border: solid black;
 }
 
-/* code added to create two-column design */
 @media screen and (min-width: 575px){
    div {
     margin: 1%;
     width: 48%;
   }
+
+  @media screen and (min-width: 991px){
+     div {
+      margin: 1%;
+      width: 23%;
+    }
+
+/*** this is the container for the emphasis box***/
+.container {
+  background-color: #dadada;
+  width: 100%;
+  margin: 1%, 1%;
+  }
+
+/* code added to create two-column design */
 
 /***this determines the font styling of all of our h1****/
 h1 {
@@ -72,11 +86,3 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-/*** this is the container for all of the stylings below - gray***/
-.container {
-  background-color: #dadada;
-  width: 100%;
-  margin: 20px, auto;
-  border: solid green;
-  }
